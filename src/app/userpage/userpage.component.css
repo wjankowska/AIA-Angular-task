@@ -1,0 +1,28 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.email {
+  color: #8a8a8a;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+h4 {
+  margin: 20px 0;
+}
+
+h2, .email {
+  text-align: center;
+}
+
+button {
+  background: #cacaca;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}

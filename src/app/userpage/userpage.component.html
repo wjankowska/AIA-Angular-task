@@ -1,0 +1,17 @@
+<div class="container">
+<ng-container *ngIf="user !== null">
+  <h2>{{user.name}} {{user.surname}}</h2>
+  <p class="email">email: {{user.email}}</p>
+</ng-container>
+
+<h4>Posts</h4>
+
+<ng-container *ngIf="showPostsBoolean === true">
+  <div *ngFor="let post of posts" class="block-element">
+    <p>{{post.title}}</p>
+    <span>{{post.body}}</span>
+  </div>
+</ng-container>
+
+<button *ngIf="!showPostsBoolean" (click)="showPosts()">Show posts</button>
+</div>

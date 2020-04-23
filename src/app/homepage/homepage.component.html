@@ -1,0 +1,8 @@
+<div class="container">
+  <div *ngFor="let user of users" class="block-element">
+    <p>{{ user.name }} {{ user.surname }}</p>
+    <span>{{ user.email }}</span>
+    <br/>
+    <a [routerLink]="'/user/' + user.id">Go to user's page</a>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+.menu {
+  padding: 25px 25px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+a {
+  text-decoration: none;
+  color: #00afdf;
+}
